@@ -1,0 +1,409 @@
+/* Font Style */
+.QS1 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+}
+.raleway{
+    font-family: Raleway;
+  }
+  
+/* Container Style */
+.container {
+    margin: auto;
+    width: 1280px;
+
+}
+
+/* Nav Style */
+.nav-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title img {
+    width: 62px;
+    height: 62px;
+}
+
+.nav-link ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+}
+
+.nav-link ul li {
+    list-style: none;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.RGB1 {
+    color: red;
+}
+
+.RGB2 {
+    color: blue;
+}
+
+.RGB3 {
+    color: rgb(0, 255, 0);
+}
+
+.RGB4 {
+    color: rgb(93, 88, 239);
+}
+
+.nav-btn {
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(120, 255, 120);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Banner Style */
+.banner-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.banner-title {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+}
+.banner-title-style-1{
+    color: rgb(120, 255, 120);
+}
+.banner-title-style-2{
+    color: rgb(1, 172, 253);
+}
+.banner-description{
+    margin-top: -20px;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-btn{
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+/* Background Img */
+.bg-img{
+    background-image: url("../pictures/bg.png");
+    background-color: #ffffff;
+    height: 1020px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img2{
+    background: linear-gradient(#ffffff,#fea3014d);
+    background-image: url("../pictures/bg.png");
+    height: 1020px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Curriculum Style */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.headline{
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.card-1{
+    width: 400px;
+    height: 450px;
+    border: 1px solid rgb(222, 245, 255);
+    background: linear-gradient(#def5ff,#ffffff);
+    border-radius: 18px; 
+}
+.card-1 h3{
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-1 p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+.card-2{
+    width: 400px;
+    height: 450px;
+    border: 1px solid rgb(255, 244, 220);
+    background: linear-gradient(#fff4dc,#ffffff);
+    border-radius: 18px;
+}
+.card-2 h3{
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-2 p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+.card-3{
+    width: 400px;
+    height: 450px;
+    border: 1px solid rgb(242, 232, 255);
+    background: linear-gradient(#f2e8ff,#ffffff);
+    border-radius: 18px;
+}
+.card-3 h3{
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-3 p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+.read-more1{
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    text-align: center;
+}
+.read-more2{
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    text-align: center;
+}
+.read-more3{
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    text-align: center;
+}
+.ch-btn2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+}
+.ch-btn{
+    text-align: center;
+    margin-top: 80px;
+}
+/* Stories Style */
+.first-story h3{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 700;
+}
+.first-story p{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+}
+.second-story h3{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+}
+.story-flex{
+  display: flex;
+}
+.second-story{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.second-story img{
+    width: 300px;
+    height: 200px;
+}
+.third-story{
+    border: 2px solid black;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.btn-primary1{
+    background-color: rgb(255, 68, 68);
+    width: 180px;
+    height: 50px;
+    border-radius: 47px;
+    border: none;
+}
+.btn-primary2{
+    background-color: rgb(90, 68, 255);
+    width: 180px;
+    height: 50px;
+    border-radius: 47px;
+    border: none;
+}.btn-primary3{
+    background-color: rgb(68, 255, 162);
+    width: 180px;
+    height: 50px;
+    border-radius: 47px;
+    border: none;
+}.btn-primary4{
+    background-color: rgb(211, 255, 68);
+    width: 180px;
+    height: 50px;
+    border-radius: 47px;
+    border: none;
+}
+.btn-primary5{
+    background-color: rgb(233, 68, 255);
+    width: 180px;
+    height: 50px;
+    border-radius: 47px;
+    border: none;
+}
+.text-primary{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: -42px;
+}
+.text-primary2{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: -56px;
+}
+.box-position{
+    position: relative;
+    padding: 30px 30px;
+}
+.box-position2{
+    position: relative;
+    padding: 40px 40px;
+
+}
+.btn-2{
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.btn-div{
+    margin-top: 80px;
+    text-align: center;
+}
+
+/* Footer Style */
+.container-2{
+    margin: auto;
+    width: auto;
+    height: 400px;
+    background: rgb(160, 255, 179);
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.f-style-1{
+    display: flex;
+    align-items: center;
+}
+.text-style{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.f-style-1 h1{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42px;
+    font-weight: 700;
+}
+.f-style-2 h3{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+}
+.f-style-3 h3{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+}
+.f-style-1 img{
+    width: 82px;
+    height: 81px;
+}
+.f-style-2 ul li{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    margin-top: 20px;
+}
