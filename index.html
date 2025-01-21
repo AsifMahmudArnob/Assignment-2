@@ -16,34 +16,38 @@
 
 <body>
     <!-- Navbar -->
-    <header class="container">
-        <nav>
-            <div class="nav-line">
-                <div class="nav-title">
-                    <img src="pictures/logo.png" alt="">
-                    <h3 class="QS1">Kids School</h3>
-                </div>
-                <div class="nav-link">
-                    <ul>
-                        <li class="RGB1"><a href=""></a>Home</li>
-                        <li class="RGB2"><a href=""></a>About</li>
-                        <li class="RGB3"><a href=""></a>Facilities</li>
-                        <li class="RGB4"><a href=""></a>Admission</li>
-                    </ul>
-                </div>
-                <i class="fa-solid fa-bars"></i>
-                <button class="nav-btn">Contact</button>
-                
-            </div>
-        </nav>
-    </header>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-line">
+                    <div class="nav-title">
+                        <img src="pictures/logo.png" alt="">
+                        <h3 class="QS1">Kids School</h3>
+                    </div>
+                    <div class="nav-link">
+                        <ul>
+                            <li class="RGB1"><a href=""></a>Home</li>
+                            <li class="RGB2"><a href=""></a>About</li>
+                            <li class="RGB3"><a href=""></a>Facilities</li>
+                            <li class="RGB4"><a href=""></a>Admission</li>
+                        </ul>
+                    </div>
+                    <i class="fa-solid fa-bars"></i>
+                    <button class="nav-btn">Contact</button>
 
+                </div>
+            </nav>
+        </div>
+    </header>
+    <marquee width="100%" direction="right" height="100px">
+        This is a sample scrolling text that has scrolls texts to the right.
+    </marquee>
     <main>
         <!-- Banner Section -->
         <section>
             <div class="container">
                 <div class="banner-flex">
-                    <div class="item-1">
+                    <div class="banner-fix">
                         <h1 class="banner-title"><span class="banner-title-style-1">Empowering</span><br>
                             students from small <br> age <span class="banner-title-style-2">towards vision</span></h1>
                         <p class="banner-description">Kids' school is a nurturing space where children learn, grow, <br>
@@ -53,7 +57,7 @@
                             supportive environment.</p>
                         <button class="banner-btn">Enroll Now</button>
                     </div>
-                    <div class="item-2">
+                    <div class="banner-hero">
                         <img src="pictures/hero-kids.png" alt="">
                     </div>
                 </div>
@@ -74,7 +78,9 @@
                             foundational skills. It promotes social, emotional, and cognitive development in a fun,
                             engaging
                             environment.</p>
-                        <button class="read-more1">Read More</button>
+                        <div class="btn-fix">
+                            <button class="read-more1">Read More</button>
+                        </div>
                     </div>
 
                     <!-- Card-2 -->
@@ -84,7 +90,7 @@
                         <p>Elementary school is where children build core academic skills and develop a love for
                             learning.
                             It lays the groundwork for critical thinking, teamwork, and personal growth.</p>
-                        <button class="read-more2">Read More</button>
+                        <div class="btn-fix"><button class="read-more2">Read More</button></div>
                     </div>
 
                     <!-- Card-3 -->
@@ -95,7 +101,7 @@
                             and
                             build independence. It's a time of developing critical thinking, emotional resilience, and
                             deeper social connections.</p>
-                        <button class="read-more3">Read More</button>
+                        <div class="btn-fix"><button class="read-more3">Read More</button></div>
                     </div>
                 </div>
                 <div class="ch-btn">
@@ -113,7 +119,7 @@
                     <h1 class="headline">Our Stories</h1>
                     <div class="story-flex">
                         <div class="first-story">
-                            <div><img src="pictures/story-1.png" alt=""></div>
+                            <div class="img-fix"><img src="pictures/story-1.png" alt=""></div>
                             <div class="box-position2">
                                 <h3>A fun toddler coloring training on
                                     classroom</h3>
@@ -178,9 +184,9 @@
 
 
     <!-- Footer Section -->
-    <section>
-        <div class="container-2">
-            <div class="footer-flex container">
+    <section class="footer-bg">
+        <div class="container">
+            <div class="footer-flex ">
                 <div class="text-style">
                     <div class="f-style-1">
                         <img src="pictures/logo.png" alt="">
