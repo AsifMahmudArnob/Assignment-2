@@ -6,6 +6,8 @@ body{
 marquee{
     display: none;
     font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 600;
 }
 .QS1 {
     color: rgb(17, 17, 17);
@@ -127,7 +129,7 @@ marquee{
     height: 50px;
     border: none;
     border-radius: 12px;
-    background-color: rgb(254, 163, 1);
+    background-color: rgb(163, 5, 248);
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 700;
@@ -147,7 +149,7 @@ marquee{
 }
 
 .bg-color {
-    background: linear-gradient(#ffffff, #fea3014d);
+    background: linear-gradient(#ffffff, #ffef6186);
     height: 100%;
 }
 
@@ -296,7 +298,7 @@ marquee{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background: rgb(254, 163, 1);
+    background: rgb(66, 82, 255);
     color: rgb(255, 255, 255);
     font-family: Font Awesome 5 Free;
     font-size: 24px;
@@ -395,7 +397,7 @@ marquee{
 }
 
 .btn-primary4 {
-    background-color: rgb(211, 255, 68);
+    background-color: rgb(255, 197, 5);
     width: 170px;
     height: 45px;
     border-radius: 47px;
@@ -404,8 +406,8 @@ marquee{
 
 .btn-primary5 {
     background-color: rgb(233, 68, 255);
-    width: 180px;
-    height: 50px;
+    width: 170px;
+    height: 45px;
     border-radius: 47px;
     border: none;
 }
@@ -449,11 +451,11 @@ marquee{
     height: 50px;
     border: none;
     border-radius: 12px;
-    background-color: rgb(254, 163, 1);
+    background-color: rgb(124, 255, 240);
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 700;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .btn-div {
@@ -464,7 +466,7 @@ marquee{
 
 /* Footer Style */
 .footer-bg {
-    background: rgb(160, 255, 179);
+    background: rgb(66, 82, 255);
 }
 
 .footer-flex {
