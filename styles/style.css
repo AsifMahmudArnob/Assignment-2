@@ -22,6 +22,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.nav-line i{
+    display: none;
+}
 
 .nav-title {
     display: flex;
@@ -78,10 +81,11 @@
 
 /* Banner Style */
 .banner-flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "item-1 item-2";
     margin-top: 20px;
+    gap: 340px;
 }
 .banner-title {
     font-family: Quicksand;
@@ -115,18 +119,17 @@
 .bg-img{
     background-image: url("../pictures/bg.png");
     background-color: #ffffff;
-    height: 1020px;
+    height: 800px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .bg-img2{
-    background: linear-gradient(#ffffff,#fea3014d);
     background-image: url("../pictures/bg.png");
-    height: 1020px;
+    height: 1040px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+.bg-color{
+    background: linear-gradient(#ffffff,#fea3014d);
+    height: 100%;
 }
 /* Curriculum Style */
 .display-flex{
@@ -148,11 +151,15 @@
     background: linear-gradient(#def5ff,#ffffff);
     border-radius: 18px; 
 }
+.card-1 img{
+    padding: 30px 0px 0px 120px;
+}
 .card-1 h3{
     font-family: Quicksand;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 0px;
 }
 .card-1 p{
     color: rgb(128, 128, 128);
@@ -169,11 +176,16 @@
     background: linear-gradient(#fff4dc,#ffffff);
     border-radius: 18px;
 }
+.card-2 img{
+    padding: 30px 0px 0px 125px;
+}
 .card-2 h3{
     font-family: Quicksand;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 40px;
 }
 .card-2 p{
     color: rgb(128, 128, 128);
@@ -190,11 +202,16 @@
     background: linear-gradient(#f2e8ff,#ffffff);
     border-radius: 18px;
 }
+.card-3 img{
+    padding: 30px 0px 0px 130px;
+}
 .card-3 h3{
     font-family: Quicksand;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 0px;
+    margin-top: 40px;
 }
 .card-3 p{
     color: rgb(128, 128, 128);
@@ -202,7 +219,7 @@
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 .read-more1{
     color: rgb(100, 200, 255);
@@ -211,7 +228,7 @@
     font-weight: 700;
     border: none;
     background: none;
-    text-align: center;
+    padding: 10px 150px;
 }
 .read-more2{
     color: rgb(240, 170, 0);
@@ -220,7 +237,7 @@
     font-weight: 700;
     border: none;
     background: none;
-    text-align: center;
+    padding: 9px 150px;
 }
 .read-more3{
     color: rgb(135, 0, 255);
@@ -230,6 +247,7 @@
     border: none;
     background: none;
     text-align: center;
+    padding: 16px 150px;
 }
 .ch-btn2{
     width: 60px;
@@ -257,8 +275,20 @@
 .first-story p{
     color: rgb(102, 102, 102);
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
+    margin-top: 80px;
+}
+.first-story{
+    border:none;
+    margin-right: 20px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+}
+.first-story img{
+    height: 420px;
+    width: 660px;
 }
 .second-story h3{
     color: rgb(0, 0, 0);
@@ -273,15 +303,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    width: 1100px;
+    height: 750px;
 }
 .second-story img{
-    width: 300px;
+    width: 290px;
     height: 200px;
 }
 .third-story{
-    border: 2px solid black;
+    border: none;
     border-radius: 16px;
     overflow: hidden;
+    background-color: white;
 }
 .btn-primary1{
     background-color: rgb(255, 68, 68);
@@ -321,23 +354,26 @@
     font-size: 15px;
     font-weight: 600;
     position: absolute;
-    top: -42px;
+    top: -30px;
 }
 .text-primary2{
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 600;
     position: absolute;
-    top: -56px;
+    top: -30px;
 }
 .box-position{
     position: relative;
-    padding: 30px 30px;
+    padding: 40px 30px;
 }
 .box-position2{
     position: relative;
     padding: 40px 40px;
 
+}
+.box-position2 h3{
+    margin-top: 50px;
 }
 .btn-2{
     width: 197px;
@@ -363,19 +399,27 @@
     background: rgb(160, 255, 179);
 }
 .footer-flex{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 120px;
+    padding-top: 60px;
 }
 .f-style-1{
     display: flex;
     align-items: center;
+}
+.f-style-1 h1{
+    margin: 20px;
+}
+.f-style-p{
+   width: 500px;
 }
 .text-style{
     color: rgb(255, 255, 255);
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 400;
-    text-align: center;
+    width: 400px;
 }
 .f-style-1 h1{
     color: rgb(255, 255, 255);
@@ -406,4 +450,37 @@
     font-weight: 500;
     list-style: none;
     margin-top: 20px;
+}
+.list-item{
+    padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-title h3{
+        display: none;
+    }
+    .nav-link{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-line i{
+        display: block;
+    }
+    .banner-flex{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-template-areas: "item-2 item-1";
+    }
 }
