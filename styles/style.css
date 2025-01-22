@@ -1,14 +1,16 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
+
 /* Font Style */
-marquee{
+marquee {
     display: none;
     font-size: 20px;
     font-family: Quicksand;
     font-weight: 600;
 }
+
 .QS1 {
     color: rgb(17, 17, 17);
     font-family: Quicksand;
@@ -154,10 +156,17 @@ marquee{
 }
 
 /* Curriculum Style */
-.btn-fix{
+.pic-fix{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.btn-fix {
     display: flex;
     justify-content: center;
 }
+
 .display-flex {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -175,15 +184,11 @@ marquee{
 
 .card-1 {
     width: 400px;
-    height: 450px;
     border: 1px solid rgb(222, 245, 255);
     background: linear-gradient(#def5ff, #ffffff);
     border-radius: 18px;
 }
 
-.card-1 img {
-    padding: 30px 0px 0px 120px;
-}
 
 .card-1 h3 {
     font-family: Quicksand;
@@ -204,15 +209,11 @@ marquee{
 
 .card-2 {
     width: 400px;
-    height: 450px;
     border: 1px solid rgb(255, 244, 220);
     background: linear-gradient(#fff4dc, #ffffff);
     border-radius: 18px;
 }
 
-.card-2 img {
-    padding: 30px 0px 0px 125px;
-}
 
 .card-2 h3 {
     font-family: Quicksand;
@@ -234,14 +235,9 @@ marquee{
 
 .card-3 {
     width: 400px;
-    height: 450px;
     border: 1px solid rgb(242, 232, 255);
     background: linear-gradient(#f2e8ff, #ffffff);
     border-radius: 18px;
-}
-
-.card-3 img {
-    padding: 30px 0px 0px 130px;
 }
 
 .card-3 h3 {
@@ -269,7 +265,7 @@ marquee{
     font-weight: 700;
     border: none;
     background: none;
-    padding: 10px 150px;
+    padding-bottom: 20px;
 }
 
 .read-more2 {
@@ -279,7 +275,7 @@ marquee{
     font-weight: 700;
     border: none;
     background: none;
-    padding: 9px 150px;
+    padding-bottom: 20px;
 }
 
 .read-more3 {
@@ -290,7 +286,7 @@ marquee{
     border: none;
     background: none;
     text-align: center;
-    padding: 16px 150px;
+    padding-bottom: 20px;
 }
 
 .ch-btn2 {
@@ -357,8 +353,6 @@ marquee{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    /* width: 1100px;
-    height: 750px; */
 }
 
 .second-story img {
@@ -432,7 +426,8 @@ marquee{
 .box-position {
     position: relative;
 }
-.box-position h3{
+
+.box-position h3 {
     padding: 40px 30px;
 }
 
@@ -536,33 +531,39 @@ marquee{
 .list-item {
     padding-left: 0px;
 }
+.f-style-2{
+    padding-left: 70px;
+}
+.f-style-3{
+    padding-left: 70px;
+}
 
 
 
 
 
-
-
-
-
-
-
-@media screen and (max-width:576px) {
-    marquee{
+@media screen and (max-width:500px) {
+    marquee {
         display: block;
+        padding-top: 20px;
     }
-    i{
+
+    i {
         font-size: 30px;
     }
-    header{
+
+    header {
         border-bottom: 1px solid orange;
     }
-    nav{
+
+    nav {
         padding: 15px 0;
     }
-    .container{
-        width: 500px;
+
+    .container {
+        width: 476px;
     }
+
     .nav-title h3 {
         display: none;
     }
@@ -580,7 +581,7 @@ marquee{
     }
 
     /* Banner-CSS */
-    
+
     .banner-flex {
         flex-direction: column-reverse;
         text-align: center;
@@ -617,6 +618,8 @@ marquee{
 
     .display-flex {
         grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
     }
 
     .card-1 {
@@ -624,9 +627,7 @@ marquee{
     }
 
     .card-1 img {
-        width: 100px;
-        height: 100px;
-        padding: 30px 0px 0px 200px;
+        padding-top: 20px;
     }
 
     .card-1 h3 {
@@ -647,9 +648,7 @@ marquee{
     }
 
     .card-2 img {
-        width: 100px;
-        height: 100px;
-        padding: 30px 0px 0px 200px;
+        padding-top: 20px;
     }
 
     .card-2 h3 {
@@ -670,9 +669,7 @@ marquee{
     }
 
     .card-3 img {
-        width: 100px;
-        height: 100px;
-        padding: 30px 0px 0px 200px;
+        padding-top: 20px;
     }
 
     .card-3 h3 {
@@ -687,43 +684,59 @@ marquee{
         font-size: 16px;
         font-weight: 500;
     }
-    .read-more1, .read-more2, .read-more3{
+
+    .read-more1,
+    .read-more2,
+    .read-more3 {
         font-size: 20px;
-        margin-bottom: -90px;
+        padding-bottom: 20px;
     }
 
     /* Story-CSS */
-    .text-primary{
+    .text-primary {
         left: 10px;
     }
-    .bg-img{
+
+    .bg-img {
+        background-size: 450px 450px;
+    }
+
+    .bg-img2 {
         background-size: 500px 500px;
     }
-    .bg-img2{
-        background-size: 500px 500px;
-    }
+
     .first-story {
         display: none;
     }
 
     .second-story {
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 10px;
     }
 
-    .third-story {
-        width: 245px;
-    }
-    .btn-div{
+    .third-story {}
+
+    .btn-div {
         padding-bottom: 30px;
         margin-top: 30px;
     }
 
-/* Footer-CSS */
+    /* Footer-CSS */
+    .f-style-p {
+        width: 100%;
+    }
+
     .footer-flex {
         grid-template-columns: repeat(1, 1fr);
     }
-    .footer-flex{
+
+    .footer-flex {
         padding: 30px 30px;
+    }
+    .f-style-2{
+        padding-left: 0px;
+    }
+    .f-style-3{
+        padding-left: 0px;
     }
 }
